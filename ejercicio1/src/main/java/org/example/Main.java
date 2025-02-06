@@ -7,7 +7,7 @@ public class Main {
 
 
 
-        nuevoAnagrama.determinarAnangrama("loca", "cola");
+        nuevoAnagrama.determinarAnangrama("hola", "cola");
 
 
     }
