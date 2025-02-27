@@ -28,7 +28,7 @@ public class Departamento {
     public String[] impresionEstudiantesArreglo(){
         String [] infoEstudiantes = new String[this.getHistorialPunteos().size()];
         int valorContadorArreglo =0;
-        String informacionEspecifica = "";
+        String informacionEspecifica;
         for (Estudiante estudiantes : this.getHistorialPunteos().keySet()) {
             informacionEspecifica=
                     estudiantes.getNombre()+ " "
