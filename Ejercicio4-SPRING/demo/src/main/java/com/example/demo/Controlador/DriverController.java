@@ -54,6 +54,11 @@ public class DriverController {
 
     //delete
 
-    //@DeleteMapping(path = "/eliminar")
+    @DeleteMapping(path = "/eliminar")
+    public @ResponseBody String eliminar(@RequestParam int id) {
+        driverRepository.deleteById(id);
+        return "actualizado";
+
+    }
 
 }
