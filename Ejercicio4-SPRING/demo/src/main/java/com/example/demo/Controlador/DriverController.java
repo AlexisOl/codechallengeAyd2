@@ -1,9 +1,8 @@
-package Controlador;
+package com.example.demo.Controlador;
 
-import Modelos.Driver;
-import Repositorios.DriverRepository;
+import com.example.demo.Modelos.Driver;
+import com.example.demo.Repositorios.DriverRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
@@ -54,10 +53,6 @@ public class DriverController {
     }
 
     //delete
-    @GetMapping("/test")
-    public String test() {
-        return "El controlador está funcionando";
-    }
 
     //@DeleteMapping(path = "/eliminar")
 
